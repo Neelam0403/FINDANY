@@ -1,0 +1,5 @@
+<!-- res/values/dimensions.xml -->
+<resources>
+    <dimen name="building_width">200dp</dimen>
+    <dimen name="building_height">400dp</dimen>
+</resources>
