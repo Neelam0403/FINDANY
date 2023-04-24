@@ -6,29 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".InternalView">
 
-    <ImageView
-        android:id="@+id/building1"
-        android:layout_width="173dp"
-        android:layout_height="97dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="124dp"
-        android:src="@drawable/rect"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <com.example.findany.InternalViewDesign
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    </ImageView>
-
-    <ImageView
-        android:id="@+id/building2"
-        android:layout_width="152dp"
-        android:layout_height="87dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="320dp"
-        android:src="@drawable/circle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </ImageView>
+    </com.example.findany.InternalViewDesign>
 
 
 </RelativeLayout>
